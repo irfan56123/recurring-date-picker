@@ -7,7 +7,7 @@ const useStateStore = create((set, get) => ({
   interval: 1,
   recurrenceOption: 'Daily',
   selectedWeekdays: [],
-  pattern: null,
+  pattern: null, 
   recurringDates: [],
 
   setStartDate: (date) => set({ startDate: date }),
@@ -42,6 +42,7 @@ setSelectedWeekdays: (days) =>
     if (state.pattern !== pattern) return { pattern };
     return state;
   }),
+  
   setRecurringDates: (dates) => set({ recurringDates: dates }),
 
   generateRecurringDates: () => {

@@ -8,7 +8,6 @@ const PatternSelector = () => {
   const recurrenceOption = useStateStore((state) => state.recurrenceOption);
   const pattern = useStateStore((state) => state.pattern);
   const setPattern = useStateStore((state) => state.setPattern);
-
   if (!['Monthly', 'Yearly'].includes(recurrenceOption)) return null;
 
   const [week, day] = pattern?.split(' ') || ['', ''];

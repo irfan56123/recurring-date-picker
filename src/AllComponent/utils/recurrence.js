@@ -139,8 +139,10 @@ export function Recurrence({
     }
   }
 
-  console.log('🗓️ Recurrence Generated:', dates.map(d => d.toISOString()));
+  console.log(' Recurrence Generated:', dates.map(d => d.toISOString()));
   return dates;
+
+ 
 }
 
 
