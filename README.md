@@ -1,12 +1,62 @@
-# React + Vite
+ Recurring Date Picker Component – React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A reusable **Recurring Date Picker** component built with React, Zustand, Tailwind CSS, and Vite. Inspired by date selection patterns used in apps like TickTick and Google Calendar, this component allows users to define flexible recurring date rules.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Features
 
-## Expanding the ESLint configuration
+- Recurrence Rules**: Supports Daily, Weekly, Monthly, and Yearly patterns
+- Custom Intervals**: Select "Every X days/weeks/months/years"
+- Specific Patterns:
+  - Weekly: Choose specific weekdays (e.g., Mon/Wed/Fri)
+  - Monthly: e.g., Second Tuesday, Last Friday
+  - Yearly: e.g., Last Friday of December
+- Date Range Selection**: Start and optional end date
+- Zustand State Management**: Efficient, minimal global state
+- Preview Calendar**: Visual feedback of generated recurring dates
+- Fully Modular**: Easily pluggable and customizable
+- Tailwind CSS**: Clean and responsive styling
+- Unit & Integration Tests**: With Jest
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+Testing
+
+bash
+node --experimental-vm-modules node_modules/jest/bin/jest.js
+
+ Tech Stack
+React (Vite)
+
+Zustand
+
+Tailwind CSS
+
+Jest (Testing)
+
+Date-fns (for date manipulation)
+
+ Author
+Irfan Ahmad
+Frontend Developer Trainee – PearlThoughts Assignment
+
+
+ License
+This project is for demonstration purposes only.
+
+
+## 👉 What to do next:
+1. Replace these placeholders:
+   - `https://your-sandbox-url.codesandbox.io`
+   - `https://your-loom-video-link.com`
+   - `@yourusername` → your GitHub username
+
+2. Save this file as `README.md` in your project root.
+
+3. Run:
+
+bash
+git add README.md
+git commit -m "📝 Update README with full details and links"
+git push origin main
+
